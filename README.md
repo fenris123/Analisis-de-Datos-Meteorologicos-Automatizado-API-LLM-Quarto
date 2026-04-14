@@ -110,7 +110,13 @@ scatter.png, tmax.png, tmin.png → gráficos
 reporte.qmd → plantilla del informe
 Informe renderizado por Quarto (.html o .pdf)
 
-# Notas
+## Notas
 El tiempo total de ejecución depende principalmente del modelo LLM. Al estar diseñado para no requerir tarjeta grafica, tardara unos 5 minutos en ejecutarse.
 La descarga de datos incluye pausas para evitar sobrecargar la API
 El script está pensado para ejecutarse en local y de forma autónoma.
+
+# IMPORTANTE:  
+El script hace 3 intentos para descargar los dato del mes en cada año.
+Si no lo logra, pasa al siguiente. 
+El año actual por ser el mas importante (sin el no hay datos actuales con los que comparar la media de los anteriores) hemos insertado un sleep de 10 antes de el para minimizar la posibilidad de que falle la descarga. 
+Si se observa que faltan en la grafica esos datos, sugerimos esperar un poco antes de volver a lanzar el script.
