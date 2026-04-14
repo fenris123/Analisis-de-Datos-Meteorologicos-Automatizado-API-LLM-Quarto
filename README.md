@@ -115,6 +115,12 @@ El tiempo total de ejecución depende principalmente del modelo LLM. Al estar di
 La descarga de datos incluye pausas para evitar sobrecargar la API
 El script está pensado para ejecutarse en local y de forma autónoma.
 
+Este script esta hecho unicamente con fines didacticos. 
+Sobre el uso de los datos de AEMET, su API etc, recomendamos ver su nota legal:
+https://www.aemet.es/es/nota_legal
+
+
+
 # IMPORTANTE:  
 El script hace 3 intentos para descargar los dato del mes en cada año.
 Si no lo logra, pasa al siguiente. 
