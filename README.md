@@ -114,11 +114,10 @@ Informe renderizado por Quarto (.html o .pdf)
 El tiempo total de ejecución depende principalmente del modelo LLM. Al estar diseñado para no requerir tarjeta grafica, tardara unos 5 minutos en ejecutarse.
 La descarga de datos incluye pausas para evitar sobrecargar la API
 El script está pensado para ejecutarse en local y de forma autónoma.
-
-Este script esta hecho unicamente con fines didacticos. 
 Sobre el uso de los datos de AEMET, su API etc, recomendamos ver su nota legal:
 https://www.aemet.es/es/nota_legal
 
+### Adicionalmente:  este es un script didactico y experimental, se ha optado por crear el archivo .qmd directamente con python automatizandolo todo en un solo script, pero admitimos que es una opcion "rara". Una opcion mas comun es crear el .qmd individalmente, e insertar en el los graficos resultantes de los otros scripts complejos, orquestandolo todo posteriormente. 
 
 
 # IMPORTANTE:  
